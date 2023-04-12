@@ -46,7 +46,7 @@
         "typescript-plugin-css-modules": "^2.7.0"
     },
     "dependencies": {
-        "page-flip": "file:./page-flip-2.0.7.tgz"
+        "page-flip": "git+https://github.com/cdk0507/StPageFlip.git"
     },
     "keywords": [
         "react",
