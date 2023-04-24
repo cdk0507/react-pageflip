@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
         "declaration": true,
-		"declarationDir": "build",
-		// "declarationDir": "../modal-demo/src/Modal",
+        "declarationDir": "build",
+        // "declarationDir": "../modal-demo/src/Modal",
         "module": "esnext",
         "target": "es6",
         "lib": ["es6", "dom", "es2016", "es2017"],
@@ -11,7 +11,11 @@
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "plugins": [{ "name": "typescript-plugin-css-modules" }]
+        "plugins": [{ "name": "typescript-plugin-css-modules" }],
+        "baseUrl": ".",
+        "paths": {
+            "@cdk0507/page-flip": ["node_modules/@cdk0507/page-flip/src/PageFlip.ts"]
+        }
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules", "build", "src/**/*.test.tsx"]

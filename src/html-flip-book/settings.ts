@@ -1,11 +1,13 @@
 export type PageState = 'user_fold' | 'fold_corner' | 'flipping' | 'read';
 export type PageOrientation = 'portrait' | 'landscape';
 
+import { SizeType } from '@cdk0507/page-flip/src/Settings';
+
 export interface IFlipSetting {
     /** Page number from which to start viewing */
     startPage: number;
     /** Whether the book will be stretched under the parent element or not */
-    size: 'fixed' | 'stretch';
+    size: SizeType;
 
     width: number;
     height: number;

@@ -1,14 +1,14 @@
 {
-    "name": "react-pageflip",
-    "version": "2.0.3",
+    "name": "@cdk0507/react-pageflip",
+    "version": "0.0.4",
     "author": "oleg.litovski9@gmail.com",
     "license": "MIT",
     "description": "Simple React.js wrapper for StPageFlip library, for creating realistic and beautiful page turning effect",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Nodlik/react-pageflip.git"
+        "url": "https://github.com/cdk0507/react-pageflip.git"
     },
-    "homepage": "https://nodlik.github.io/react-pageflip/",
+    "homepage": "https://cdk0507.github.io/react-pageflip/",
     "main": "build/index.js",
     "module": "build/index.es.js",
     "files": [
@@ -35,8 +35,8 @@
         "eslint-plugin-react-hooks": "^4.1.2",
         "eslint-plugin-typescript": "^0.14.0",
         "prettier": "^2.1.2",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
         "rollup": "^2.26.0",
         "rollup-plugin-peer-deps-external": "^2.2.3",
         "rollup-plugin-postcss": "^3.1.8",
@@ -44,9 +44,6 @@
         "rollup-plugin-typescript2": "^0.27.2",
         "typescript": "^4.0.3",
         "typescript-plugin-css-modules": "^2.7.0"
-    },
-    "dependencies": {
-        "page-flip": "git+https://github.com/cdk0507/StPageFlip.git"
     },
     "keywords": [
         "react",
@@ -58,5 +55,8 @@
         "fold",
         "frontend",
         "javascript"
-    ]
+    ],
+    "dependencies": {
+        "@cdk0507/page-flip": "latest"
+    }
 }
