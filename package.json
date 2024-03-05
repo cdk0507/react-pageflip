@@ -1,6 +1,6 @@
 {
     "name": "@cdk0507/react-pageflip",
-    "version": "0.0.5",
+    "version": "1.0.3",
     "author": "oleg.litovski9@gmail.com",
     "license": "MIT",
     "description": "Simple React.js wrapper for StPageFlip library, for creating realistic and beautiful page turning effect",
